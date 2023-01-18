@@ -52,6 +52,9 @@ html{
   color:rgb(255, 255, 255);
 }
 
+.nav_bg:hover{
+  color: black;
+}
 
 .social_icons{
   display: flex;

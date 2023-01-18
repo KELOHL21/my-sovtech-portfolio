@@ -16,7 +16,7 @@ const ABoutMe = () => {
 
    return ( 
 
-      <div id="about" className=" w-[87%] flex flex-col ml-[4rem] mb-[2rem]" >
+      <div id="about" className=" w-[87%] flex flex-col ml-[4rem] mb-[2rem] mt-[1rem]" >
 
          <h1 className="flex flex-col m-10 text-5xl font-medium text-center text-[#708B75]" data-aos='zoom-in'> Who am I 
 

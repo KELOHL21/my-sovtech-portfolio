@@ -41,20 +41,20 @@ const Navbar = () => {
 
         <ul className='hidden text:sm md:flex md:w-full md:justify-end xl:text-lg xl:px-4'>
 
-              <li className='mx-8 duration-500 cursor-pointer text-2xl  font-700 whitespace-nowrap text-center bg-[#708B75] hover:bg-transparent w-[8rem] rounded py-1 px-6 items-center '>
+              <li className='mx-8 duration-500 cursor-pointer text-2xl  font-semibold hover:font-bold whitespace-nowrap text-center bg-[#708B75] hover:bg-transparent w-[8rem] rounded py-1 px-6 items-center '>
 
                 <Link href='#home' >
                   Home
                 </Link>
               </li>
 
-              <li className='mx-8 hover:text-[#708B75] duration-500 cursor-pointer text-2xl  font-700 whitespace-nowrap    '>
+              <li className='mx-8 hover:text-[#708B75] hover:font-bold duration-500 cursor-pointer text-2xl  font-semibold whitespace-nowrap    '>
               <Link href='#aboutme'>
                   About Me
               </Link>
               </li>
 
-            <li className='mx-8 hover:text-[#708B75] duration-500 cursor-pointer text-2xl  font-700 whitespace-nowrap  '>
+            <li className='mx-8 hover:text-[#708B75] hover:font-bold  duration-500 cursor-pointer text-2xl  font-semibold whitespace-nowrap  hover:shadow-white-600'>
               <Link href='#whysovtech'>
               Why SovTech?
               </Link>
