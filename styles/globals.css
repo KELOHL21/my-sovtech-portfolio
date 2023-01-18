@@ -52,10 +52,6 @@ html{
   color:rgb(255, 255, 255);
 }
 
-.nav_bg:hover{
-  color: black;
-}
-
 .social_icons{
   display: flex;
 }
@@ -112,6 +108,7 @@ button {
 .react_icons{
   padding-bottom:5px
 }
+
 
 .banner_content{
   margin-left: 2rem;

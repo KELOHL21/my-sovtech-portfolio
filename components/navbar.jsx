@@ -49,7 +49,7 @@ const Navbar = () => {
               </li>
 
               <li className='mx-8 hover:text-[#708B75] hover:font-bold duration-500 cursor-pointer text-2xl  font-semibold whitespace-nowrap    '>
-              <Link href='#aboutme'>
+              <Link href='#about'>
                   About Me
               </Link>
               </li>
@@ -90,15 +90,15 @@ const Navbar = () => {
 
       </div>
 
-      <div className='social_icons space-x-3'>
+      <div className='social_icons space-x-5'>
 
-      <AiFillGithub size={30} className='hover:animate-bounce'/>
+      <AiFillGithub size={35} className='hover:animate-bounce'/>
 
-      <AiFillLinkedin size={30} className='hover:animate-bounce'/>
+      <AiFillLinkedin size={35} className='hover:animate-bounce'/>
 
-       <SiIndeed size={30} className='hover:animate-bounce'/>
+       <SiIndeed size={35} className='hover:animate-bounce'/>
 
-       <AiFillFacebook size={30} className='hover:animate-bounce'/>
+       <AiFillFacebook size={35} className='hover:animate-bounce '/>
 
       </div>
 

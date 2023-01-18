@@ -26,10 +26,8 @@ export default function App() {
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
-          reverseDirection:true
-
         }}
-        speed={2000}
+        speed={1000}
         navigation={true}
         modules={[Autoplay, Navigation]}
         className="mySwiper"
