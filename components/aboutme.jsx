@@ -34,13 +34,13 @@ const ABoutMe = () => {
 
             </h3>
 
-            <p  className='items-center pt-5 text-2xl font-light leading-relaxed text-center' data-aos='slide-right'>
+            <p  className='items-center pt-8 text-2xl font-light leading-relaxed text-center' data-aos='slide-right'>
             
                Since graduating from high school in 2018, I found it difficult to find my path, causing me to have held several positions.However, I have discovered a job title that is in line with my soul and that is as a Software/Frontend Developer. 
                
-               Despite having just recently begun to develop, I have entirely lost myself in coding, I`ve fallen inlove with every piece of syntax and every bug. During my time at Code Space Academy I learnt the basics of the world within Software Developement namely HTML, CSS, JAVASCRIPT and PHP. I`ve currently taken interest in frameworks such as Next.js and I am currently learning Tailwind CSS and SASS.     
+               Despite having just recently begun to develop, I have entirely lost myself in coding, I`ve fallen inlove with every piece of syntax and every bug. During my time at CodeSpace Academy I learnt the basics of the world within Software Developement namely HTML, CSS, JAVASCRIPT and some PHP . I`ve recently taken interest in frameworks such as Next.js and I am currently learning Tailwind CSS and SASS.     
                
-               Although my passion is Design and Frontend work I hope to once I`ve established a firm foot in the Frontend world  be able to move and dabble in more Backend work later within the future if the opportunity is given.
+               Although my passion is Design and Frontend work I hope to once I`ve established a firm foot in the Frontend world, grow into more Backend work later on within my career if the opportunity is given to me. My end goal is to become a Fullstack Developer with Frontend being my strongest skill.
 
                </p>        
                       

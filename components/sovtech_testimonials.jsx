@@ -14,7 +14,7 @@ import { Autoplay,  } from "swiper";
 
 export default function App() {
   return (
-    <div className=' w-100% m-6'  data-aos='zoom-in'>    
+    <div className=' w-100% m-6 mt-[3rem] '  data-aos='zoom-in'>    
 
 
       <h1 className='text-4xl mb-[2rem]'>Testimonials</h1>

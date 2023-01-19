@@ -3,7 +3,7 @@ import Aos from 'aos'
 
 const MyValues = () => {
    return ( 
-      <div className=' cursor-pointer mt-[25px] mb-[3rem] w-[85%] m-auto' >
+      <div className=' cursor-pointer mt-[50px] mb-[3rem] w-[85%] m-auto ' >
 
             <div>
                <h1 className='mb-5 text-4xl text-center' >My Values</h1>
