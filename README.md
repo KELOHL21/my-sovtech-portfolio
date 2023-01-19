@@ -25,9 +25,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 </ul>
 
-<b>Nb!</b>
+<h3>Nb!</h3>
 
-<p>This Project is not responsive within the near future I would like to however make it responsive</p>
+<p>This Project is not responsive within the near future I would like to make it responsive</p>
 
 ## Deploy on Vercel
 
