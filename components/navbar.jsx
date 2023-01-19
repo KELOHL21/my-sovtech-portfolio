@@ -41,20 +41,20 @@ const Navbar = () => {
 
         <ul className='hidden text:sm md:flex md:w-full md:justify-end xl:text-lg xl:px-4'>
 
-              <li className='mx-8 duration-500 cursor-pointer text-2xl  font-semibold hover:font-bold whitespace-nowrap text-center bg-[#708B75] hover:bg-transparent w-[8rem] rounded py-1 px-6 items-center '>
+              <li className='mx-8 hover:duration-200  cursor-pointer text-2xl  font-normal hover:font-semibold whitespace-nowrap text-center bg-[#708B75] hover:bg-transparent w-[8rem] rounded py-1 px-6 items-center '>
 
                 <Link href='#home' >
                   Home
                 </Link>
               </li>
 
-              <li className='mx-8 hover:text-[#708B75] hover:font-bold duration-500 cursor-pointer text-2xl  font-semibold whitespace-nowrap    '>
+              <li className='mx-8 hover:bg-[#708B75] hover:text-white hover:font-semibold hover:duration-200  cursor-pointer text-2xl  font-normal whitespace-nowrap  w-[9rem] text-center py-1 px-6 rounded items-center'>
               <Link href='#about'>
                   About Me
               </Link>
               </li>
 
-            <li className='mx-8 hover:text-[#708B75] hover:font-bold  duration-500 cursor-pointer text-2xl  font-semibold whitespace-nowrap  hover:shadow-white-600'>
+            <li className='mx-8 hover:bg-[#708B75] hover:text-white hover:font-semibold hover:duration-200 cursor-pointer text-2xl  font-normal whitespace-nowrap  w-[12rem] text-center py-1 px-6 rounded items-center'>
               <Link href='#whysovtech'>
               Why SovTech?
               </Link>
@@ -66,23 +66,33 @@ const Navbar = () => {
           {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
        </div>
 
-       <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#ffffff] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+       <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full bg-[#708B75] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
 
-        <h1 className='w-full text-3xl font-bold text-blue-500 m-4'>KELSY</h1>
+        <div className='space-x-5 social_icons'>
 
-          <li className='p-4 border-b hover:text-black duration-500 cursor-pointer text-2xl'>          
+        <AiFillGithub size={30} className='hover:animate-bounce'/>
+
+        <AiFillLinkedin size={30} className='hover:animate-bounce'/>
+
+        <SiIndeed size={30} className='hover:animate-bounce'/>
+
+        <AiFillFacebook size={30} className='hover:animate-bounce '/>
+
+        </div>
+
+          <li className='p-4 text-2xl duration-500 border-b cursor-pointer hover:text-black'>          
             <Link href='home'>
               Home
             </Link>
           </li>
 
-         <li className='p-4 border-b hover:text-black duration-500 cursor-pointer text-2xl'>       
+         <li className='p-4 text-2xl duration-500 border-b cursor-pointer hover:text-black'>       
             <Link href='about'>
              About Me
             </Link>
           </li>
 
-          <li className='p-4 border-b hover:text-black duration-500 cursor-pointer text-2xl'>
+          <li className='p-4 text-2xl duration-500 border-b cursor-pointer hover:text-black'>
             <Link href='whysovtech'>
             Why SovTech?
           </Link></li>
@@ -90,15 +100,15 @@ const Navbar = () => {
 
       </div>
 
-      <div className='social_icons space-x-5'>
+      <div className='space-x-5 social_icons '>
 
-      <AiFillGithub size={35} className='hover:animate-bounce'/>
+      <AiFillGithub size={30} className='hover:animate-bounce'/>
 
-      <AiFillLinkedin size={35} className='hover:animate-bounce'/>
+      <AiFillLinkedin size={30} className='hover:animate-bounce'/>
 
-       <SiIndeed size={35} className='hover:animate-bounce'/>
+       <SiIndeed size={30} className='hover:animate-bounce'/>
 
-       <AiFillFacebook size={35} className='hover:animate-bounce '/>
+       <AiFillFacebook size={30} className='hover:animate-bounce '/>
 
       </div>
 

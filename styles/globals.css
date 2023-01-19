@@ -111,7 +111,7 @@ button {
 
 
 .banner_content{
-  margin-left: 2rem;
+  margin-left: 5rem;
   padding-top: 18rem;
   height: 190px;
 }
@@ -142,9 +142,13 @@ button {
 .values{
   object-fit: contain;
   border-radius: 55%;
-  box-shadow: 10px 2px 5px 0px rgba(0,0,0,0.45);
-  -webkit-box-shadow: 10px 2px 5px 0px rgba(0,0,0,0.45);
-  -moz-box-shadow: 10px 2px 5px 0px rgba(0,0,0,0.45);
+  box-shadow: 5px 0px 5px -2px rgba(0,0,0,0.31);
+  -webkit-box-shadow: 5px 0px 5px -2px rgba(0,0,0,0.31);
+  -moz-box-shadow: 5px 0px 5px -2px rgba(0,0,0,0.31);
+}
+
+#value_txt{
+  text-shadow: 1px 0px 2px rgba(0,0,0,0.38);
 }
 
 
