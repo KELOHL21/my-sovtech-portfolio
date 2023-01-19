@@ -12,15 +12,22 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-About Project:
-Created with Next.js, Tailwind Css and React-Icons
+<h1>About Project:</h1>
 
-Sections:
--About Me
--Why I chose Sovtech
+   <p>Created with Next.js, Tailwind Css and React-Icons</p>
 
-Nb! :
-This Project is not responsive within the near future I would like to however make it responsive
+<h2>Sections:<h2>
+
+<ul>
+
+   <li>About Me</li>
+   <li>Why I chose Sovtech</li>
+
+</ul>
+
+<b>Nb!</b>
+
+<p>This Project is not responsive within the near future I would like to however make it responsive</p>
 
 ## Deploy on Vercel
 
