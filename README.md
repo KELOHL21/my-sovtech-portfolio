@@ -14,6 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 <h1>About Project:</h1>
 
+   <p>This ProjectI built for Sovtech as part of their graduate applying  pro</p>
    <p>Created with Next.js, Tailwind Css and React-Icons</p>
 
 <h2>Sections:<h2>
